@@ -10,8 +10,8 @@ pipeline {
                 echo 'Hello World'
 
                 script {
-                    groovy.log.info 'Starting'
-                    groovy.log.warning 'Nothing to do!'
+                    demo.info 'Starting'
+                    demo.warning 'Nothing to do!'
                 }
 
 
