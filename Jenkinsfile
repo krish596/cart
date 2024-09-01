@@ -1,4 +1,4 @@
-library 'roboshop@main'
+ @Library('roboshop') _
 
 
 pipeline {
