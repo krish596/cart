@@ -9,8 +9,12 @@ pipeline {
             steps {
                 echo 'Hello World'
 
-                log.info 'Starting'
-                log.warning 'Nothing to do!'
+                scripts {
+                    log.info 'Starting'
+                    log.warning 'Nothing to do!'
+                }
+
+
             }
         }
 
