@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Hello World'
 
-                scripts {
+                script {
                     log.info 'Starting'
                     log.warning 'Nothing to do!'
                 }
