@@ -9,8 +9,8 @@ pipeline {
             steps {
                 echo 'Hello World'
 
-                demo.log.info 'Starting'
-                demo.log.warning 'Nothing to do!'
+                demo.info 'Starting'
+                demo.warning 'Nothing to do!'
             }
         }
 
