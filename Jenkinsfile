@@ -1,6 +1,7 @@
 
 
 @Library('roboshop') _
+
 pipeline {
     agent any
 
@@ -8,6 +9,10 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Hello World'
+                script {
+                    demo.info 'Starting'
+                    demo.warning 'Nothing to do!'
+                }
             }
         }
 
@@ -20,11 +25,6 @@ pipeline {
         stage('Code Quality') {
             steps {
                 echo 'Hello World'
-
-                script {
-                    demo.info 'Starting'
-                    demo.warning 'Nothing to do!'
-                }
 
             }
         }
