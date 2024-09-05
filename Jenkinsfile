@@ -22,8 +22,8 @@ pipeline {
                 echo 'Hello World'
 
                 script {
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
+                    demo.info 'Starting'
+                    demo.warning 'Nothing to do!'
                 }
 
             }
