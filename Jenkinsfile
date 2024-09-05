@@ -1,5 +1,3 @@
-
-
 @Library('roboshop') _
 
 pipeline {
@@ -9,10 +7,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Hello World'
-                script {
-                    demo.info 'Starting'
-                    demo.warning 'Nothing to do!'
-                }
+
             }
         }
 
